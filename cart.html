@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <!-- fresh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="topic" href="index.html">Fresh Finds</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="login.html" id="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Cart</h1>
+    <div class="contcart">
+        <div class="innercart">
+            <h2>Cart Summary</h2>
+            <ul id="cart-items"></ul>
+            <h5>Total: $<span id="cart-total">0.00</span></h5>
+            <button id="checkout">Checkout</button>
+        </div>
+    </div>
+    <script src="js/cart.js"></script>
+</body>
+</html>
